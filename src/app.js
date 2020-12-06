@@ -1,4 +1,5 @@
 const express = require("express");
+require("./models/User");
 require("./services/passport");
 require("./db/connectDB")();
 
