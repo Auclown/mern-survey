@@ -4,6 +4,7 @@ const bodyParser = require("body-parser");
 const passport = require("passport");
 
 require("./models/User");
+require("./models/Survey");
 require("./services/passport");
 require("./db/connectDB")();
 
