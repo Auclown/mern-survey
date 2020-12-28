@@ -52,4 +52,4 @@ class Mailer extends helper.Mail {
   }
 }
 
-module.exports = Mail;
+module.exports = Mailer;
